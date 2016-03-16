@@ -3,38 +3,82 @@
 
 h1{
 	color:blue;
+	text-align: center;
 }
+
+h2{
+	color:green;
+	margin-top:0;
+	background-color: white;
+	border-left:1px solid black;
+	border-bottom: 1px solid black;
+	width:25%;
+	position:relative;
+}
+
 
 
 /*Desktop */
 
-@media screen (min-width: 992px){
+@media (min-width: 992px){
 	p{
-		font-size: 120%;
+		font-size: 150%;
 	}
-section{
-	width:60%;
-	height:50%;
+	section{
+		width:30%;
+		border: 1px solid black;
+		margin-left:15px;
+		background-color: gray;
 	}
+
+	h2{
+		top:0;
+		left:303px;
+	}
+
 #sect1{
 	float:left;
-}
+	}
 #sect2{
-	float:right;
-}
+	float:left;
+	}
 #sect3{
-	float:right;
-}
-
+	float:left;
+	}
 }
 
 /*Tablet */
-@media screen (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
+
+	section{
+		width:40%;
+		border: 1px solid black;
+		background-color: gray;
+		margin-left: 15px;
+		margin-bottom: 15px;
+		}
+
+	h2{
+		width:30%;
+		top:0;
+		left:240px;
+
+	}
+	#sect1{
+		float:left;
+	}
+	#sect2{
+		float:left;
+	}
+	#sect3{
+		float:left;
+		width:82.5%;
+	}
 
 }
 
 /*Mobile Phone */
-@media screen (max-width: 767px){
+@media (max-width: 767px){
 
 }
 
