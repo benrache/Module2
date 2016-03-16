@@ -1,3 +1,42 @@
+
+/* Base Style */
+
 h1{
 	color:blue;
 }
+
+
+/*Desktop */
+
+@media screen (min-width: 992px){
+	p{
+		font-size: 120%;
+	}
+section{
+	width:60%;
+	height:50%;
+	}
+#sect1{
+	float:left;
+}
+#sect2{
+	float:right;
+}
+#sect3{
+	float:right;
+}
+
+}
+
+/*Tablet */
+@media screen (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*Mobile Phone */
+@media screen (max-width: 767px){
+
+}
+
+
+
