@@ -7,16 +7,28 @@ h1{
 }
 
 h2{
-	color:green;
 	margin-top:0;
-	background-color: white;
 	border-left:1px solid black;
 	border-bottom: 1px solid black;
 	width:25%;
 	position:relative;
+	text-align: center;
 }
 
+#chicken{
+	color:black;
+	background-color: pink;
+}
 
+#beef{
+	color:white;
+	background-color: red;
+}
+
+#sushi{
+	color:black;
+	background-color: yellow;
+}
 
 /*Desktop */
 
@@ -61,8 +73,11 @@ h2{
 	h2{
 		width:30%;
 		top:0;
-		left:240px;
-
+		left:243px;
+	}
+	#sushi{
+		width:20%;
+		left:572px;
 	}
 	#sect1{
 		float:left;
@@ -72,7 +87,7 @@ h2{
 	}
 	#sect3{
 		float:left;
-		width:82.5%;
+		width:82%;
 	}
 
 }
