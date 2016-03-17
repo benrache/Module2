@@ -30,6 +30,10 @@ h2{
 	background-color: yellow;
 }
 
+p{
+	margin: 15px;
+}
+
 /*Desktop */
 
 @media (min-width: 992px){
@@ -45,7 +49,7 @@ h2{
 
 	h2{
 		top:0;
-		left:303px;
+		left:302px;
 	}
 
 #sect1{
@@ -94,7 +98,20 @@ h2{
 
 /*Mobile Phone */
 @media (max-width: 767px){
+	p{
+		font-size: 175%;
+	}
 
+	section{
+		width:100%;
+		border: 1px solid black;
+		background-color: gray;
+		margin-bottom: 15px;
+	}
+
+	h2{
+		left:472;
+	}
 }
 
 
